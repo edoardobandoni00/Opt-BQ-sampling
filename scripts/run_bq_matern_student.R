@@ -48,7 +48,7 @@ sample_optimal <- function(i, n_total) {
   )
 }
 
-prior_var <- matern32_prior_var_student_mc(ell = ell, sigma_f2 = sigma_f2, df = df_measure, n_mc = 20000)
+prior_var <- matern32_prior_var_student_mc(ell = ell, sigma_f2 = sigma_f2, df = df_measure, n_mc = 1e8)
 
 kernel_mean_student <- function(x, ell_arg, sigma_f2_arg) {
   matern32_kernel_mean_student(x, ell = ell_arg, sigma_f2 = sigma_f2_arg, df = df_measure)
