@@ -15,7 +15,6 @@ Main goals:
 - `scripts/`: experiment entry points.
 - `results/`: saved `.rds` outputs.
 - `figures/`: exported plots.
-- `BQ_UD_myversion/`: reference scripts used for style and checks.
 
 ## Experiments implemented
 
