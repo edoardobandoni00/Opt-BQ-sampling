@@ -63,7 +63,7 @@ source("scripts/run_bq_matern_student.R")
 ## Plot settings used now
 
 - Mean trend plots can start after burn-in style iterations:
-  - RBF Gaussian: `mean_plot_start <- 70`
+  - RBF Gaussian: `mean_plot_start <- 20`
   - Matern Gaussian: `mean_plot_start <- 100`
   - Matern Student: `mean_plot_start <- 100`
 - This start is used in both:
