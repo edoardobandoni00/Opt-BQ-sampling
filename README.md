@@ -35,28 +35,6 @@ integral variance are held fixed within each comparison.
 - `results/` is intentionally empty and receives generated `.rds` files.
 - `figures/` is intentionally empty and receives generated PDF figures.
 
-## Method
-
-For Mercer eigenpairs $(\mu_m,e_m)$ of the fitted kernel under $\pi$,
-Bach's sampling distribution is
-
-```text
-q*_lambda(x) = pi(x) / d(lambda)
-               * sum_m [mu_m / (mu_m + lambda)] e_m(x)^2.
-```
-
-The Mercer operator is approximated on equal-probability cells of the target
-measure. This avoids imposing an arbitrary finite interval on unbounded
-distributions and provides a common construction for Gaussian, Student-\(t\),
-and Beta targets. The regularization level is
-
-```text
-lambda = n^(-2 alpha / d),
-```
-
-where `n` is the final evaluation budget, `alpha` is the Sobolev smoothness,
-and `d` is the dimension.
-
 ## Requirements
 
 - R
