@@ -1,9 +1,6 @@
 # Optimal Sampling for Bayesian Quadrature
 
-This repository contains the R implementation used to compare sampling
-distributions for one-dimensional Bayesian quadrature (BQ). The experiments
-study how the choice of evaluation nodes affects posterior uncertainty and
-integration accuracy on bounded and unbounded domains.
+This repository contains the R implementation of the numerical experiments associated with the article Rate-Optimal Randomised Kernel Quadrature. The experiments compare sampling distributions for one-dimensional Bayesian quadrature and investigate how the choice of evaluation nodes affects integration accuracy and posterior uncertainty on bounded and unbounded domains.
 
 ## Experiments
 
